@@ -1,0 +1,89 @@
+a {
+    color: var(--bs-light);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--bs-light);
+}
+
+.header-bottom {
+    background-image: url('../images/girl.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-bottom-bg {
+    background-color: rgba(33, 37, 41, 0.9);
+}
+
+.card-svg {
+    height: 50%;
+    width: 50%;
+    margin: 16px auto 0px auto;
+}
+
+.feedback, .contacts-info, .footer-info{
+    padding: 40px 0px;
+}
+
+@media (max-width: 575px) { 
+    .header-bottom-bg {
+        padding: 20px 0px;
+    }
+    .services {
+        padding: 20px 0px 30px 0px;
+    }
+}
+
+@media (min-width: 576px) { 
+    .header-bottom-bg {
+        padding: 20px 0px;
+    }
+    .services {
+        padding: 35px 0px 45px 0px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-bottom-bg {
+        padding: 50px 0px;
+    }
+    .services {
+        padding: 50px 0px 40px 0px;
+    }
+}
+
+@media (min-width: 992px) {
+    .header-bottom-bg {
+        padding: 80 0px;
+    }
+    .services {
+        padding: 70px 0px 80px 0px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .header-bottom-bg {
+        padding: 100px 0px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .header-bottom-bg {
+        padding: 170px 0px;
+    }
+    .services {
+        padding: 50px 0px 60px 0px;
+    }
+}
+
+@media (min-width: 2561) {
+    .header-bottom-bg {
+        padding: 170px 0px;
+    }
+    .services {
+        padding: 50px 0px 50px 0px;
+    }
+}
